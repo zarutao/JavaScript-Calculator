@@ -18,10 +18,3 @@ function switchTheme() {
     darkMode.innerHTML = "Dark Mode 🌙";
   }
 }
-// Create audio if you on click = button.
-function test(){
-  let audio = document.createElement('audio');
-  audio.setAttribute("autoplay","true");
-  audio.innerHTML = "<source src=\"audio/Sound_1.mp3\" type=\"audio/mpeg\">";
-  document.body.appendChild(audio);
-}
